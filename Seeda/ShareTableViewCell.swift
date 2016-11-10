@@ -10,6 +10,10 @@ import UIKit
 
 class ShareTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var locationLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var detailsLabel: UILabel!
+    @IBOutlet weak var checkImg: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -1,0 +1,1480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0334CE4DA47426AB21D29BD6E8DF368E /* MapboxDirections.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EDB1F4BD4AFCFBB222CD375FB0E218 /* MapboxDirections.swift-dummy.m */; };
+		04250EF47F3C7A82BD62FED9D1C081B4 /* SwiftyStoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EAC06F4E9FDD0F73D302968727AA7C /* SwiftyStoreKit.swift */; };
+		04CEF9E33C6B52612BB04023CA8D03FA /* Polyline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743F0C8830675B3C17ED0BB6A6E09AD2 /* Polyline.framework */; };
+		0BA986536326BCC266A0157A8C204CF8 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15DD52330C6EDBDEA4349B1C12764EB /* DropDown+Appearance.swift */; };
+		0E4A9CFDC8A87BA336CB32A38C20239D /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90BBF59909BF2C660F51AEC54D32F63F /* DropDownCell.xib */; };
+		211772668048AFAA1F4D1443C413605F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2674D17024A892BAB327708456869877 /* Foundation.framework */; };
+		25BF8E0DD4AE3D76DB02CC0A6C1E807E /* SimpleAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A095A782C1AA86D7CB2CBDE6B7344401 /* SimpleAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BBAC1789D5FEE5D9B3F5B3C048F14E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2674D17024A892BAB327708456869877 /* Foundation.framework */; };
+		311D5A4AFB0F3AEEFCABAA80BE1073D6 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D460694FB054B94EACC69D81585B62 /* DropDown-dummy.m */; };
+		399A23BCFAF8FAB7DD53F969AB7AEAE5 /* SimpleAlert.xib in Sources */ = {isa = PBXBuildFile; fileRef = 58A29DC489817C33A8BD85FDA95DE2E0 /* SimpleAlert.xib */; };
+		401CC4828FF77B310FB714B2F208DB33 /* InAppReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC330AFC550A55DAA0595922DB1094BC /* InAppReceipt.swift */; };
+		4087A4914E74CBFB5C8C58846F7862AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2674D17024A892BAB327708456869877 /* Foundation.framework */; };
+		436281567341617B135F90C839DB6FAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0F4FC4FFE10FF80843AF5144A8959D /* UIKit.framework */; };
+		46A9C59DBEFF6911C5D9367D5CD5B14F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2674D17024A892BAB327708456869877 /* Foundation.framework */; };
+		567F0E2EA3DD673DA28562ADFC489BE4 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727DB30C8ECC5183981D84452D2462FE /* DPDKeyboardListener.swift */; };
+		5AA2A0D128578189A44E78DADCB5624A /* MBRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8E20A6D9AE44CBF419040DBAE4E27 /* MBRoute.swift */; };
+		5D58D890427CB412A607D4F0B446BB43 /* Pods-Seeda-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DCCBA2B6A589C791AD8E8DE79BBFC9 /* Pods-Seeda-dummy.m */; };
+		60F29BEBE65A7A88CB2501C4848C9F8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2674D17024A892BAB327708456869877 /* Foundation.framework */; };
+		67AC3489311600D930CC2C92ECD47848 /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADE7BCCF5FF7CFCAF84C2E2ADAC89C /* Polyline.swift */; };
+		6F669D1DC4844F156ADFA568C4F4CAD0 /* ZAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBFFDB9D926CCEA0941A8B6EB937BE8 /* ZAlertView.swift */; };
+		6FAD7D08B301985BF129AC5A2B3D5CF4 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3759D1173DEF5D8515A516C6FA68177 /* DPDConstants.swift */; };
+		707F8109814BFBF751EA120219898703 /* MapboxDirections.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D8C464B9C01D7DA6E9D40F337FD69D /* MapboxDirections.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77E3F47B9B5BFF547C55AC7573340572 /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0EC9C573324EBA9137E01CB092F2BDB /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A16C358C60068E4EFF8D14DE7E694D0 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF6AABA217ADD3BE2960B1207D535A /* UIImage.swift */; };
+		81A9042F668B62EA4E40C57566BEE0A2 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D40CD5ACE4BC5E71BBAC9471F42D240 /* DPDUIView+Extension.swift */; };
+		848A3C1D1BEF04281FF31DAB19235D9D /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74DF1A227C5D7CF7009F0DFA6025AD4 /* UIColor.swift */; };
+		95A81D3A9F8EEC76F4D925702E270FF5 /* MBDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AE4961299EB12DB60BC4101B59FB47 /* MBDirections.swift */; };
+		9811132B36B59EEB8D144F8BCC0B443E /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F4348E6A5A2CEAF13633EB3FCF18 /* DropDown.swift */; };
+		A6547BE5E4CE0156705A016AE48B14CD /* MBRouteLeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12B28225991AA60973DD01FC726E3C /* MBRouteLeg.swift */; };
+		A88B3B4C732D526C77EAAF33525915E1 /* SwiftyStoreKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66205A134AB8C84346DE008F6D7A3566 /* SwiftyStoreKit-dummy.m */; };
+		AB650FD017D9DB9FD70655A1951721A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2674D17024A892BAB327708456869877 /* Foundation.framework */; };
+		AFE4A2DB9D78E2CE7818539286BCF291 /* MBRouteStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B6A81C9CE6C2D11B79879001103B7 /* MBRouteStep.swift */; };
+		B0B11F4C8BEDCB6E25BAD6A0CA65D441 /* MBRouteOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C079E2A61D0190DABC76BFDE538F00 /* MBRouteOptions.swift */; };
+		B504A84B309C5D2BB8489C50AB9ABCAD /* Polyline.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B874B85FA8CB8DF3661E8D4DA38C4F /* Polyline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B72600B945A2F5FCABA5C82EC00D8767 /* Polyline-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4246DE702DA5E0507CDD0D299AC960D /* Polyline-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B790A9007569B6BF96AF2FE7A15DA162 /* Pods-Seeda-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E627CA99D76D4425B95A5C8892C41EAF /* Pods-Seeda-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE9EC2948C67BF59B78BE726920AEFCB /* InAppCompleteTransactionsObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6238DD6739B44CA574FF5AF40EF45700 /* InAppCompleteTransactionsObserver.swift */; };
+		C6A0DEA45F6E32495FF3EA299C9331C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2674D17024A892BAB327708456869877 /* Foundation.framework */; };
+		CE12DEFBB8D02632E73D29BBBADBE175 /* SimpleAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8F6A41EAC6A586278D9B93E66A2E7 /* SimpleAlert.swift */; };
+		D2B2C73D23209F8B5571D5172C800ED8 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8916FD07E293315D38A8D2D850046B7B /* DropDownCell.swift */; };
+		D5DFB1F69773B911E7BBDEAF2A772C2E /* ZAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DEFC59ED611AC105903F5DD6B0B3AA3 /* ZAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF2C437AC8B85AC648693C3AFCDA38BB /* Polyline-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F85CB68809F508648C4657857CD35937 /* Polyline-dummy.m */; };
+		E1353450416562AD4F9602AF6C146D63 /* OS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4AB2506C4A28640565B9A5026B3EF /* OS.swift */; };
+		E2596B9C1AC92A9C8C9BF730E95847C6 /* SwiftyStoreKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A8BAD725E110E54A6FA07CFE9249FDF /* SwiftyStoreKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E73A4EB4E227A50F84F1AB2B34B9CEF8 /* InAppProductPurchaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FDD5A84E5D6BF6C0703A8EF0665D93 /* InAppProductPurchaseRequest.swift */; };
+		EBCB36BF1A777B379130C00A2AA55643 /* MBWaypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A63570849E60039D6D4C0326005122 /* MBWaypoint.swift */; };
+		EC8A3F97A4B2DCFB5DB11DE1ABE6FD8B /* ZAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E83B58DED8EF57002D7FA9B2AFF7B65 /* ZAlertView-dummy.m */; };
+		ECA56CF657C642C9667164F07A6B8CEF /* InAppProductQueryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86BC0234C02FAC54F8CC30287BC4E8A /* InAppProductQueryRequest.swift */; };
+		ED2CD98FCA96012EBA8E4D6B5070FEE4 /* SimpleAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 0229C88F0C6D6E7F34E85CAF88159560 /* SimpleAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5BE18B44AF66A8496E01B6C554D0603 /* MapboxDirections.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F03A4419DAE7400A9EED43822CB7420 /* MapboxDirections.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F64C19DE67FB7213531BC1AB43ECF057 /* InAppReceiptRefreshRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE0E7A2EC04B217223DFA0313478547 /* InAppReceiptRefreshRequest.swift */; };
+		FABF593196ACD3FE96EC7072060FF010 /* SimpleAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCAEA0FCEDD8348918F4FBD5363364 /* SimpleAlert-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38B025BE77789FE284DC511660D00FFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C080055654F530AA845FF3429077B74;
+			remoteInfo = Polyline;
+		};
+		5BDB50CDCFFCBFFD30FB9050A4040EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7977CEEB16C76137045295666C3B0691;
+			remoteInfo = SwiftyStoreKit;
+		};
+		798ED7AFB29DD3E9D085CA357E7804E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C93BB2C850F2E4BB09BF2BBE1A027FE;
+			remoteInfo = MapboxDirections.swift;
+		};
+		9D5FE194A6A4EBCE724F49ADFE3454A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 691A7364CE35DB8C3F23CAC3951EA87A;
+			remoteInfo = ZAlertView;
+		};
+		BA18A360E5168E24601622E3C4E39CFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F766ADB76A46AB732825D44C4BAAABF;
+			remoteInfo = DropDown;
+		};
+		DDBD7F9E133FD04E754B1DBBF423A407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF4505A4AAC3A4B359FCE5882F28CDA;
+			remoteInfo = SimpleAlert;
+		};
+		E04CAFBAAFB719EDA6E553D733EED565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C080055654F530AA845FF3429077B74;
+			remoteInfo = Polyline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0229C88F0C6D6E7F34E85CAF88159560 /* SimpleAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleAlert.h; path = SimpleAlert/SimpleAlert.h; sourceTree = "<group>"; };
+		093038540FE37648FADFF80593C80BF0 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		0A8BAD725E110E54A6FA07CFE9249FDF /* SwiftyStoreKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyStoreKit-umbrella.h"; sourceTree = "<group>"; };
+		0FF9E5B219D972F0A14DEA504534E5FF /* Polyline-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyline-prefix.pch"; sourceTree = "<group>"; };
+		12A63570849E60039D6D4C0326005122 /* MBWaypoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBWaypoint.swift; path = MapboxDirections/MBWaypoint.swift; sourceTree = "<group>"; };
+		132D65CA8F02A3703A48EE9B1DAB2C0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E7AA263F335ADA69E77C19E3F953C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABCAEA0FCEDD8348918F4FBD5363364 /* SimpleAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleAlert-dummy.m"; sourceTree = "<group>"; };
+		1F5EAF139AFCC0800BA3E07AD5B33F68 /* MapboxDirections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapboxDirections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE0E7A2EC04B217223DFA0313478547 /* InAppReceiptRefreshRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppReceiptRefreshRequest.swift; path = SwiftyStoreKit/InAppReceiptRefreshRequest.swift; sourceTree = "<group>"; };
+		21FDD5A84E5D6BF6C0703A8EF0665D93 /* InAppProductPurchaseRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppProductPurchaseRequest.swift; path = SwiftyStoreKit/InAppProductPurchaseRequest.swift; sourceTree = "<group>"; };
+		2294E63AE5DCEAA3A4AEDB5CDB0B2728 /* ZAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZAlertView-prefix.pch"; sourceTree = "<group>"; };
+		2674D17024A892BAB327708456869877 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2DEFC59ED611AC105903F5DD6B0B3AA3 /* ZAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZAlertView-umbrella.h"; sourceTree = "<group>"; };
+		342FB60E526926E492C90EADFA2B20B8 /* SimpleAlert.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleAlert.xcconfig; sourceTree = "<group>"; };
+		35E2AF87C86DCE8D5474087CF666BDB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36AE4961299EB12DB60BC4101B59FB47 /* MBDirections.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBDirections.swift; path = MapboxDirections/MBDirections.swift; sourceTree = "<group>"; };
+		37562846A064D8BAB00372B13E89A2CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3964C20AA2670C3BBDD64D9F668FA35E /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = dynamic/Mapbox.framework; sourceTree = "<group>"; };
+		3AADE7BCCF5FF7CFCAF84C2E2ADAC89C /* Polyline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Polyline.swift; path = Polyline/Polyline.swift; sourceTree = "<group>"; };
+		3FBC529B04585363B46E4301D1D08A5A /* SwiftyStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44EAC06F4E9FDD0F73D302968727AA7C /* SwiftyStoreKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyStoreKit.swift; path = SwiftyStoreKit/SwiftyStoreKit.swift; sourceTree = "<group>"; };
+		4566529DA88CD76E2C573F73941D3D13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45953221A3613EAAFB4BE364FB70AB6B /* MapboxDirections.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapboxDirections.swift.xcconfig; sourceTree = "<group>"; };
+		4750197775B3C1960D5908D0B2161F1F /* SwiftyStoreKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyStoreKit.modulemap; sourceTree = "<group>"; };
+		4A01B877118EB7703DF51C0E3B03B0CB /* ZAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBFFDB9D926CCEA0941A8B6EB937BE8 /* ZAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZAlertView.swift; path = Pod/Classes/ZAlertView.swift; sourceTree = "<group>"; };
+		4F03A4419DAE7400A9EED43822CB7420 /* MapboxDirections.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapboxDirections.swift-umbrella.h"; sourceTree = "<group>"; };
+		53B874B85FA8CB8DF3661E8D4DA38C4F /* Polyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Polyline.h; path = Polyline/Polyline.h; sourceTree = "<group>"; };
+		53CE3AD28BA86C0781D593FAA7163AA6 /* DropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.xcconfig; sourceTree = "<group>"; };
+		54CFE379F683959A58A7915EC6643AE0 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E8E20A6D9AE44CBF419040DBAE4E27 /* MBRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBRoute.swift; path = MapboxDirections/MBRoute.swift; sourceTree = "<group>"; };
+		58A29DC489817C33A8BD85FDA95DE2E0 /* SimpleAlert.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SimpleAlert.xib; path = SimpleAlert/SimpleAlert.xib; sourceTree = "<group>"; };
+		5C574F7EF2B387CCD5A5E369A1B3402E /* ZAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZAlertView.xcconfig; sourceTree = "<group>"; };
+		61FF4F090C07D54CD883FAEED925A082 /* Polyline.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Polyline.xcconfig; sourceTree = "<group>"; };
+		6238DD6739B44CA574FF5AF40EF45700 /* InAppCompleteTransactionsObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppCompleteTransactionsObserver.swift; path = SwiftyStoreKit/InAppCompleteTransactionsObserver.swift; sourceTree = "<group>"; };
+		66205A134AB8C84346DE008F6D7A3566 /* SwiftyStoreKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyStoreKit-dummy.m"; sourceTree = "<group>"; };
+		727DB30C8ECC5183981D84452D2462FE /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		72DCCBA2B6A589C791AD8E8DE79BBFC9 /* Pods-Seeda-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Seeda-dummy.m"; sourceTree = "<group>"; };
+		743F0C8830675B3C17ED0BB6A6E09AD2 /* Polyline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Polyline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7644D89871AB7E6CECDC236A1AA835B7 /* SimpleAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7799C13AD60F864D52F922569D56B6DA /* Pods-Seeda-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Seeda-acknowledgements.markdown"; sourceTree = "<group>"; };
+		789C906367F94ECED3AC2885F85966E1 /* Polyline.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Polyline.modulemap; sourceTree = "<group>"; };
+		7D40CD5ACE4BC5E71BBAC9471F42D240 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		7E83B58DED8EF57002D7FA9B2AFF7B65 /* ZAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZAlertView-dummy.m"; sourceTree = "<group>"; };
+		88B0D62D5A68241F6165FA817CBE7829 /* ZAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZAlertView.modulemap; sourceTree = "<group>"; };
+		8916FD07E293315D38A8D2D850046B7B /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		8E2B6A81C9CE6C2D11B79879001103B7 /* MBRouteStep.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBRouteStep.swift; path = MapboxDirections/MBRouteStep.swift; sourceTree = "<group>"; };
+		90BBF59909BF2C660F51AEC54D32F63F /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		953219190B8A49DF7B4D2C4154E70752 /* MapboxDirections.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapboxDirections.swift-prefix.pch"; sourceTree = "<group>"; };
+		A095A782C1AA86D7CB2CBDE6B7344401 /* SimpleAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleAlert-umbrella.h"; sourceTree = "<group>"; };
+		A228BB92CBE930131513F9BE5CF0992F /* SwiftyStoreKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyStoreKit.xcconfig; sourceTree = "<group>"; };
+		A5D8C464B9C01D7DA6E9D40F337FD69D /* MapboxDirections.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MapboxDirections.h; path = MapboxDirections/MapboxDirections.h; sourceTree = "<group>"; };
+		A75AA2FE0A6F3C81C8A9A28B9424A1DC /* SimpleAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleAlert-prefix.pch"; sourceTree = "<group>"; };
+		A7EF6AABA217ADD3BE2960B1207D535A /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = Pod/Classes/UIImage.swift; sourceTree = "<group>"; };
+		AA12B28225991AA60973DD01FC726E3C /* MBRouteLeg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBRouteLeg.swift; path = MapboxDirections/MBRouteLeg.swift; sourceTree = "<group>"; };
+		B9306D5B6223DB64301B2C0FBEC75EAC /* Pods-Seeda-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Seeda-resources.sh"; sourceTree = "<group>"; };
+		BB2711F20C854C9D05F03E8E6F8D1840 /* Pods-Seeda-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Seeda-frameworks.sh"; sourceTree = "<group>"; };
+		BDA4AB2506C4A28640565B9A5026B3EF /* OS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OS.swift; path = SwiftyStoreKit/OS.swift; sourceTree = "<group>"; };
+		C1DAFD95E0D4BB4D11B99DA648963172 /* Polyline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Polyline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F8F6A41EAC6A586278D9B93E66A2E7 /* SimpleAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleAlert.swift; path = SimpleAlert/SimpleAlert.swift; sourceTree = "<group>"; };
+		C7D460694FB054B94EACC69D81585B62 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		C86BC0234C02FAC54F8CC30287BC4E8A /* InAppProductQueryRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppProductQueryRequest.swift; path = SwiftyStoreKit/InAppProductQueryRequest.swift; sourceTree = "<group>"; };
+		CA3E45F8C9A5FE3D57356267A5B8A032 /* Pods-Seeda-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Seeda-acknowledgements.plist"; sourceTree = "<group>"; };
+		CD0F4FC4FFE10FF80843AF5144A8959D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CE7A2E69C2385991E05D76DD65E79654 /* Pods_Seeda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seeda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF73A7ECD999A37325108A680AD462C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2BE82DD5A115471D5F6BA6F011FA645 /* Pods-Seeda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Seeda.debug.xcconfig"; sourceTree = "<group>"; };
+		D599F4348E6A5A2CEAF13633EB3FCF18 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		D74DF1A227C5D7CF7009F0DFA6025AD4 /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = Pod/Classes/UIColor.swift; sourceTree = "<group>"; };
+		D7B25D098067AEDEFEBA8C15F78170EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0EC9C573324EBA9137E01CB092F2BDB /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		E15DD52330C6EDBDEA4349B1C12764EB /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		E2C079E2A61D0190DABC76BFDE538F00 /* MBRouteOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBRouteOptions.swift; path = MapboxDirections/MBRouteOptions.swift; sourceTree = "<group>"; };
+		E3759D1173DEF5D8515A516C6FA68177 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		E627CA99D76D4425B95A5C8892C41EAF /* Pods-Seeda-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Seeda-umbrella.h"; sourceTree = "<group>"; };
+		E8D96A81DA027DBAD0C48910F9E03F21 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DropDown.modulemap; sourceTree = "<group>"; };
+		E91D9FAA6ECB38560EBAA8300F11D51B /* SimpleAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SimpleAlert.modulemap; sourceTree = "<group>"; };
+		EB7AB6BDF2554A5BE40A42B6BF5457F4 /* Pods-Seeda.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Seeda.modulemap"; sourceTree = "<group>"; };
+		EC330AFC550A55DAA0595922DB1094BC /* InAppReceipt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppReceipt.swift; path = SwiftyStoreKit/InAppReceipt.swift; sourceTree = "<group>"; };
+		F04FD1C46CDFDE4DFCF0E815BB6121AC /* SwiftyStoreKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyStoreKit-prefix.pch"; sourceTree = "<group>"; };
+		F07753B439114967A85457E4F2393F3B /* MapboxDirections.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MapboxDirections.swift.modulemap; sourceTree = "<group>"; };
+		F4246DE702DA5E0507CDD0D299AC960D /* Polyline-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyline-umbrella.h"; sourceTree = "<group>"; };
+		F44881B5794ACB5249B372EC2B0FCC14 /* Pods-Seeda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Seeda.release.xcconfig"; sourceTree = "<group>"; };
+		F5EDB1F4BD4AFCFBB222CD375FB0E218 /* MapboxDirections.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapboxDirections.swift-dummy.m"; sourceTree = "<group>"; };
+		F85CB68809F508648C4657857CD35937 /* Polyline-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Polyline-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05328B5827A54098B84F1472AD74DE90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F29BEBE65A7A88CB2501C4848C9F8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2322C4F1B74F0AFB3B70D8A795EB5717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBAC1789D5FEE5D9B3F5B3C048F14E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635042C2000F87FFF917CA8AB6B521E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211772668048AFAA1F4D1443C413605F /* Foundation.framework in Frameworks */,
+				436281567341617B135F90C839DB6FAD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682EC77251226E741EF3EF00EB257588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB650FD017D9DB9FD70655A1951721A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D81967333598F33C136570C17C2E9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4087A4914E74CBFB5C8C58846F7862AF /* Foundation.framework in Frameworks */,
+				04CEF9E33C6B52612BB04023CA8D03FA /* Polyline.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B782A87A62617A2458E9704E07501FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A9C59DBEFF6911C5D9367D5CD5B14F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F070F56EC476792BCCDFCF04B3D6D5B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A0DEA45F6E32495FF3EA299C9331C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02E6AE457ED69F7B81985AF7BF59ED2B /* SwiftyStoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				6238DD6739B44CA574FF5AF40EF45700 /* InAppCompleteTransactionsObserver.swift */,
+				21FDD5A84E5D6BF6C0703A8EF0665D93 /* InAppProductPurchaseRequest.swift */,
+				C86BC0234C02FAC54F8CC30287BC4E8A /* InAppProductQueryRequest.swift */,
+				EC330AFC550A55DAA0595922DB1094BC /* InAppReceipt.swift */,
+				1FE0E7A2EC04B217223DFA0313478547 /* InAppReceiptRefreshRequest.swift */,
+				BDA4AB2506C4A28640565B9A5026B3EF /* OS.swift */,
+				44EAC06F4E9FDD0F73D302968727AA7C /* SwiftyStoreKit.swift */,
+				F9F63BFE5B54AAFC69B8DD0FE3A00C92 /* Support Files */,
+			);
+			path = SwiftyStoreKit;
+			sourceTree = "<group>";
+		};
+		18BDD93A4B487E9894ACBA57EFE1A1CA /* ZAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				D74DF1A227C5D7CF7009F0DFA6025AD4 /* UIColor.swift */,
+				A7EF6AABA217ADD3BE2960B1207D535A /* UIImage.swift */,
+				4DBFFDB9D926CCEA0941A8B6EB937BE8 /* ZAlertView.swift */,
+				D721493273F38B10EA8A51327E64E86B /* Support Files */,
+			);
+			path = ZAlertView;
+			sourceTree = "<group>";
+		};
+		1C5202CE89779E04485878098CEB71B2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8D96A81DA027DBAD0C48910F9E03F21 /* DropDown.modulemap */,
+				53CE3AD28BA86C0781D593FAA7163AA6 /* DropDown.xcconfig */,
+				C7D460694FB054B94EACC69D81585B62 /* DropDown-dummy.m */,
+				093038540FE37648FADFF80593C80BF0 /* DropDown-prefix.pch */,
+				E0EC9C573324EBA9137E01CB092F2BDB /* DropDown-umbrella.h */,
+				18E7AA263F335ADA69E77C19E3F953C9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		2AA17B3CA183BE41EFB2CB8DE7AD8212 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4566529DA88CD76E2C573F73941D3D13 /* Info.plist */,
+				789C906367F94ECED3AC2885F85966E1 /* Polyline.modulemap */,
+				61FF4F090C07D54CD883FAEED925A082 /* Polyline.xcconfig */,
+				F85CB68809F508648C4657857CD35937 /* Polyline-dummy.m */,
+				0FF9E5B219D972F0A14DEA504534E5FF /* Polyline-prefix.pch */,
+				F4246DE702DA5E0507CDD0D299AC960D /* Polyline-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Polyline";
+			sourceTree = "<group>";
+		};
+		3B0B9B30B9415B34A96529A92AD1FECE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3964C20AA2670C3BBDD64D9F668FA35E /* Mapbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F681669BAEC47782F19A452A3FE4232 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35E2AF87C86DCE8D5474087CF666BDB7 /* Info.plist */,
+				F07753B439114967A85457E4F2393F3B /* MapboxDirections.swift.modulemap */,
+				45953221A3613EAAFB4BE364FB70AB6B /* MapboxDirections.swift.xcconfig */,
+				F5EDB1F4BD4AFCFBB222CD375FB0E218 /* MapboxDirections.swift-dummy.m */,
+				953219190B8A49DF7B4D2C4154E70752 /* MapboxDirections.swift-prefix.pch */,
+				4F03A4419DAE7400A9EED43822CB7420 /* MapboxDirections.swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MapboxDirections.swift";
+			sourceTree = "<group>";
+		};
+		56CEFB0406A0D04F8676F24FDA123EB4 /* Polyline */ = {
+			isa = PBXGroup;
+			children = (
+				53B874B85FA8CB8DF3661E8D4DA38C4F /* Polyline.h */,
+				3AADE7BCCF5FF7CFCAF84C2E2ADAC89C /* Polyline.swift */,
+				2AA17B3CA183BE41EFB2CB8DE7AD8212 /* Support Files */,
+			);
+			path = Polyline;
+			sourceTree = "<group>";
+		};
+		706006471605F8E2971912B16BDD361C /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				E3759D1173DEF5D8515A516C6FA68177 /* DPDConstants.swift */,
+				727DB30C8ECC5183981D84452D2462FE /* DPDKeyboardListener.swift */,
+				7D40CD5ACE4BC5E71BBAC9471F42D240 /* DPDUIView+Extension.swift */,
+				D599F4348E6A5A2CEAF13633EB3FCF18 /* DropDown.swift */,
+				E15DD52330C6EDBDEA4349B1C12764EB /* DropDown+Appearance.swift */,
+				8916FD07E293315D38A8D2D850046B7B /* DropDownCell.swift */,
+				FD3F09FB5FA5739B5612AE3D84637905 /* Resources */,
+				1C5202CE89779E04485878098CEB71B2 /* Support Files */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FF8CF06BC043955CC7BDBA9E6CB246B8 /* Frameworks */,
+				F9DDD12D9C6AE190E6F2A90F154DE880 /* Pods */,
+				C5BB6762DEDD216E250BD80773FC178D /* Products */,
+				E8DD1AF91A8DF33BA555FFCAB789B2EC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9FCFCEA0EF17AF9E1433461DA5694327 /* Pods-Seeda */ = {
+			isa = PBXGroup;
+			children = (
+				CF73A7ECD999A37325108A680AD462C7 /* Info.plist */,
+				EB7AB6BDF2554A5BE40A42B6BF5457F4 /* Pods-Seeda.modulemap */,
+				7799C13AD60F864D52F922569D56B6DA /* Pods-Seeda-acknowledgements.markdown */,
+				CA3E45F8C9A5FE3D57356267A5B8A032 /* Pods-Seeda-acknowledgements.plist */,
+				72DCCBA2B6A589C791AD8E8DE79BBFC9 /* Pods-Seeda-dummy.m */,
+				BB2711F20C854C9D05F03E8E6F8D1840 /* Pods-Seeda-frameworks.sh */,
+				B9306D5B6223DB64301B2C0FBEC75EAC /* Pods-Seeda-resources.sh */,
+				E627CA99D76D4425B95A5C8892C41EAF /* Pods-Seeda-umbrella.h */,
+				D2BE82DD5A115471D5F6BA6F011FA645 /* Pods-Seeda.debug.xcconfig */,
+				F44881B5794ACB5249B372EC2B0FCC14 /* Pods-Seeda.release.xcconfig */,
+			);
+			name = "Pods-Seeda";
+			path = "Target Support Files/Pods-Seeda";
+			sourceTree = "<group>";
+		};
+		C5BB6762DEDD216E250BD80773FC178D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54CFE379F683959A58A7915EC6643AE0 /* DropDown.framework */,
+				1F5EAF139AFCC0800BA3E07AD5B33F68 /* MapboxDirections.framework */,
+				CE7A2E69C2385991E05D76DD65E79654 /* Pods_Seeda.framework */,
+				C1DAFD95E0D4BB4D11B99DA648963172 /* Polyline.framework */,
+				7644D89871AB7E6CECDC236A1AA835B7 /* SimpleAlert.framework */,
+				3FBC529B04585363B46E4301D1D08A5A /* SwiftyStoreKit.framework */,
+				4A01B877118EB7703DF51C0E3B03B0CB /* ZAlertView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9394B6AB3CDB3E795F9D188FAE5B602 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2674D17024A892BAB327708456869877 /* Foundation.framework */,
+				CD0F4FC4FFE10FF80843AF5144A8959D /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D721493273F38B10EA8A51327E64E86B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				132D65CA8F02A3703A48EE9B1DAB2C0F /* Info.plist */,
+				88B0D62D5A68241F6165FA817CBE7829 /* ZAlertView.modulemap */,
+				5C574F7EF2B387CCD5A5E369A1B3402E /* ZAlertView.xcconfig */,
+				7E83B58DED8EF57002D7FA9B2AFF7B65 /* ZAlertView-dummy.m */,
+				2294E63AE5DCEAA3A4AEDB5CDB0B2728 /* ZAlertView-prefix.pch */,
+				2DEFC59ED611AC105903F5DD6B0B3AA3 /* ZAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZAlertView";
+			sourceTree = "<group>";
+		};
+		E2B8FC48754505778FACABB6AACD3F0B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7B25D098067AEDEFEBA8C15F78170EB /* Info.plist */,
+				E91D9FAA6ECB38560EBAA8300F11D51B /* SimpleAlert.modulemap */,
+				342FB60E526926E492C90EADFA2B20B8 /* SimpleAlert.xcconfig */,
+				1ABCAEA0FCEDD8348918F4FBD5363364 /* SimpleAlert-dummy.m */,
+				A75AA2FE0A6F3C81C8A9A28B9424A1DC /* SimpleAlert-prefix.pch */,
+				A095A782C1AA86D7CB2CBDE6B7344401 /* SimpleAlert-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SimpleAlert";
+			sourceTree = "<group>";
+		};
+		E5C57FABEA44A04579AFB478ACBF221F /* Mapbox-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				3B0B9B30B9415B34A96529A92AD1FECE /* Frameworks */,
+			);
+			path = "Mapbox-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		E8A922313EF4B0777FB4D63466A91A62 /* MapboxDirections.swift */ = {
+			isa = PBXGroup;
+			children = (
+				A5D8C464B9C01D7DA6E9D40F337FD69D /* MapboxDirections.h */,
+				36AE4961299EB12DB60BC4101B59FB47 /* MBDirections.swift */,
+				57E8E20A6D9AE44CBF419040DBAE4E27 /* MBRoute.swift */,
+				AA12B28225991AA60973DD01FC726E3C /* MBRouteLeg.swift */,
+				E2C079E2A61D0190DABC76BFDE538F00 /* MBRouteOptions.swift */,
+				8E2B6A81C9CE6C2D11B79879001103B7 /* MBRouteStep.swift */,
+				12A63570849E60039D6D4C0326005122 /* MBWaypoint.swift */,
+				4F681669BAEC47782F19A452A3FE4232 /* Support Files */,
+			);
+			path = MapboxDirections.swift;
+			sourceTree = "<group>";
+		};
+		E8DD1AF91A8DF33BA555FFCAB789B2EC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FCFCEA0EF17AF9E1433461DA5694327 /* Pods-Seeda */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EAEAEB4F95D6055456B77EA95F1BBA40 /* SimpleAlert */ = {
+			isa = PBXGroup;
+			children = (
+				0229C88F0C6D6E7F34E85CAF88159560 /* SimpleAlert.h */,
+				C4F8F6A41EAC6A586278D9B93E66A2E7 /* SimpleAlert.swift */,
+				58A29DC489817C33A8BD85FDA95DE2E0 /* SimpleAlert.xib */,
+				E2B8FC48754505778FACABB6AACD3F0B /* Support Files */,
+			);
+			path = SimpleAlert;
+			sourceTree = "<group>";
+		};
+		F9DDD12D9C6AE190E6F2A90F154DE880 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				706006471605F8E2971912B16BDD361C /* DropDown */,
+				E5C57FABEA44A04579AFB478ACBF221F /* Mapbox-iOS-SDK */,
+				E8A922313EF4B0777FB4D63466A91A62 /* MapboxDirections.swift */,
+				56CEFB0406A0D04F8676F24FDA123EB4 /* Polyline */,
+				EAEAEB4F95D6055456B77EA95F1BBA40 /* SimpleAlert */,
+				02E6AE457ED69F7B81985AF7BF59ED2B /* SwiftyStoreKit */,
+				18BDD93A4B487E9894ACBA57EFE1A1CA /* ZAlertView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9F63BFE5B54AAFC69B8DD0FE3A00C92 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37562846A064D8BAB00372B13E89A2CF /* Info.plist */,
+				4750197775B3C1960D5908D0B2161F1F /* SwiftyStoreKit.modulemap */,
+				A228BB92CBE930131513F9BE5CF0992F /* SwiftyStoreKit.xcconfig */,
+				66205A134AB8C84346DE008F6D7A3566 /* SwiftyStoreKit-dummy.m */,
+				F04FD1C46CDFDE4DFCF0E815BB6121AC /* SwiftyStoreKit-prefix.pch */,
+				0A8BAD725E110E54A6FA07CFE9249FDF /* SwiftyStoreKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyStoreKit";
+			sourceTree = "<group>";
+		};
+		FD3F09FB5FA5739B5612AE3D84637905 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90BBF59909BF2C660F51AEC54D32F63F /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FF8CF06BC043955CC7BDBA9E6CB246B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				743F0C8830675B3C17ED0BB6A6E09AD2 /* Polyline.framework */,
+				C9394B6AB3CDB3E795F9D188FAE5B602 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		098827BD413A67B3C8DB5554B2B413A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2596B9C1AC92A9C8C9BF730E95847C6 /* SwiftyStoreKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E57A23424565F1975079B9A9319E5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B790A9007569B6BF96AF2FE7A15DA162 /* Pods-Seeda-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72434ACA1326E2FAAAFBDEDDB3C57AE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72600B945A2F5FCABA5C82EC00D8767 /* Polyline-umbrella.h in Headers */,
+				B504A84B309C5D2BB8489C50AB9ABCAD /* Polyline.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938C0C1ADFFF1F25B5A349683469233F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707F8109814BFBF751EA120219898703 /* MapboxDirections.h in Headers */,
+				F5BE18B44AF66A8496E01B6C554D0603 /* MapboxDirections.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A1C83F7A1632C4F56EA70EBF0AB9E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E3F47B9B5BFF547C55AC7573340572 /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C6CFBC4F6B864CEAC9EA0529EABBC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BF8E0DD4AE3D76DB02CC0A6C1E807E /* SimpleAlert-umbrella.h in Headers */,
+				ED2CD98FCA96012EBA8E4D6B5070FEE4 /* SimpleAlert.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1752D2A02F730B0AC83185299B5240E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DFB1F69773B911E7BBDEAF2A772C2E /* ZAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C080055654F530AA845FF3429077B74 /* Polyline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F178792297CEA9FDA8D268A4846DF52 /* Build configuration list for PBXNativeTarget "Polyline" */;
+			buildPhases = (
+				EBB05E083C23EAB6AE970AC59B95A443 /* Sources */,
+				F070F56EC476792BCCDFCF04B3D6D5B3 /* Frameworks */,
+				72434ACA1326E2FAAAFBDEDDB3C57AE8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polyline;
+			productName = Polyline;
+			productReference = C1DAFD95E0D4BB4D11B99DA648963172 /* Polyline.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		691A7364CE35DB8C3F23CAC3951EA87A /* ZAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D74E90502DEFAE71BDC46C4B62F80A /* Build configuration list for PBXNativeTarget "ZAlertView" */;
+			buildPhases = (
+				88DC8CFFDC84C1A2CA6FDCBD32D5BB48 /* Sources */,
+				B782A87A62617A2458E9704E07501FCE /* Frameworks */,
+				F1752D2A02F730B0AC83185299B5240E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZAlertView;
+			productName = ZAlertView;
+			productReference = 4A01B877118EB7703DF51C0E3B03B0CB /* ZAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7977CEEB16C76137045295666C3B0691 /* SwiftyStoreKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1B0BF92E156B0A73D3E6AAC19F6B51 /* Build configuration list for PBXNativeTarget "SwiftyStoreKit" */;
+			buildPhases = (
+				8737D0EAE60FC1577ED1EBA7B31DC71D /* Sources */,
+				05328B5827A54098B84F1472AD74DE90 /* Frameworks */,
+				098827BD413A67B3C8DB5554B2B413A8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyStoreKit;
+			productName = SwiftyStoreKit;
+			productReference = 3FBC529B04585363B46E4301D1D08A5A /* SwiftyStoreKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C93BB2C850F2E4BB09BF2BBE1A027FE /* MapboxDirections.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1675E524B5C4941862055A4EDC30F103 /* Build configuration list for PBXNativeTarget "MapboxDirections.swift" */;
+			buildPhases = (
+				6C6FDC39FDC24983975DA9B150874551 /* Sources */,
+				83D81967333598F33C136570C17C2E9C /* Frameworks */,
+				938C0C1ADFFF1F25B5A349683469233F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34F5C1EBC6BF05DD932C74861F0F7F11 /* PBXTargetDependency */,
+			);
+			name = MapboxDirections.swift;
+			productName = MapboxDirections.swift;
+			productReference = 1F5EAF139AFCC0800BA3E07AD5B33F68 /* MapboxDirections.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F766ADB76A46AB732825D44C4BAAABF /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEBA9E088F9F2D1C4E4D758CD3F35F4A /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				2C0B57F66C794301ABC64C8C58FA49E1 /* Sources */,
+				2322C4F1B74F0AFB3B70D8A795EB5717 /* Frameworks */,
+				D1EE6F4CCC213A2F33B327428BD4C413 /* Resources */,
+				B0A1C83F7A1632C4F56EA70EBF0AB9E1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 54CFE379F683959A58A7915EC6643AE0 /* DropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDF4505A4AAC3A4B359FCE5882F28CDA /* SimpleAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E57CF4912C902E8370D62D888AA2653E /* Build configuration list for PBXNativeTarget "SimpleAlert" */;
+			buildPhases = (
+				8F57DE8B545C71E4C009BD510C37C122 /* Sources */,
+				635042C2000F87FFF917CA8AB6B521E1 /* Frameworks */,
+				B4C6CFBC4F6B864CEAC9EA0529EABBC3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleAlert;
+			productName = SimpleAlert;
+			productReference = 7644D89871AB7E6CECDC236A1AA835B7 /* SimpleAlert.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFA6CA16243BBEF3350052D593892ED9 /* Pods-Seeda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276B9EC8BC6AA9F67EA070C35EDFECA2 /* Build configuration list for PBXNativeTarget "Pods-Seeda" */;
+			buildPhases = (
+				0944E8F4786FDB8471AF25CEEB3E8950 /* Sources */,
+				682EC77251226E741EF3EF00EB257588 /* Frameworks */,
+				61E57A23424565F1975079B9A9319E5B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92CDF8E3E22A22FBA9D944120665EBB0 /* PBXTargetDependency */,
+				F771F00556634AD3D034972DBA1B1C57 /* PBXTargetDependency */,
+				EB38056B2AF27578396EE763649F9884 /* PBXTargetDependency */,
+				8DD5AE503DDD9DC104CC5C0BF98010B6 /* PBXTargetDependency */,
+				E19AE8F6F73E1C30308FA5CF1386C6E8 /* PBXTargetDependency */,
+				D3315B970B46747740E6F4C0FA4DAF8A /* PBXTargetDependency */,
+			);
+			name = "Pods-Seeda";
+			productName = "Pods-Seeda";
+			productReference = CE7A2E69C2385991E05D76DD65E79654 /* Pods_Seeda.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C5BB6762DEDD216E250BD80773FC178D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F766ADB76A46AB732825D44C4BAAABF /* DropDown */,
+				7C93BB2C850F2E4BB09BF2BBE1A027FE /* MapboxDirections.swift */,
+				EFA6CA16243BBEF3350052D593892ED9 /* Pods-Seeda */,
+				1C080055654F530AA845FF3429077B74 /* Polyline */,
+				BDF4505A4AAC3A4B359FCE5882F28CDA /* SimpleAlert */,
+				7977CEEB16C76137045295666C3B0691 /* SwiftyStoreKit */,
+				691A7364CE35DB8C3F23CAC3951EA87A /* ZAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1EE6F4CCC213A2F33B327428BD4C413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4A9CFDC8A87BA336CB32A38C20239D /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0944E8F4786FDB8471AF25CEEB3E8950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D58D890427CB412A607D4F0B446BB43 /* Pods-Seeda-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C0B57F66C794301ABC64C8C58FA49E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAD7D08B301985BF129AC5A2B3D5CF4 /* DPDConstants.swift in Sources */,
+				567F0E2EA3DD673DA28562ADFC489BE4 /* DPDKeyboardListener.swift in Sources */,
+				81A9042F668B62EA4E40C57566BEE0A2 /* DPDUIView+Extension.swift in Sources */,
+				0BA986536326BCC266A0157A8C204CF8 /* DropDown+Appearance.swift in Sources */,
+				311D5A4AFB0F3AEEFCABAA80BE1073D6 /* DropDown-dummy.m in Sources */,
+				9811132B36B59EEB8D144F8BCC0B443E /* DropDown.swift in Sources */,
+				D2B2C73D23209F8B5571D5172C800ED8 /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6FDC39FDC24983975DA9B150874551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0334CE4DA47426AB21D29BD6E8DF368E /* MapboxDirections.swift-dummy.m in Sources */,
+				95A81D3A9F8EEC76F4D925702E270FF5 /* MBDirections.swift in Sources */,
+				5AA2A0D128578189A44E78DADCB5624A /* MBRoute.swift in Sources */,
+				A6547BE5E4CE0156705A016AE48B14CD /* MBRouteLeg.swift in Sources */,
+				B0B11F4C8BEDCB6E25BAD6A0CA65D441 /* MBRouteOptions.swift in Sources */,
+				AFE4A2DB9D78E2CE7818539286BCF291 /* MBRouteStep.swift in Sources */,
+				EBCB36BF1A777B379130C00A2AA55643 /* MBWaypoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8737D0EAE60FC1577ED1EBA7B31DC71D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9EC2948C67BF59B78BE726920AEFCB /* InAppCompleteTransactionsObserver.swift in Sources */,
+				E73A4EB4E227A50F84F1AB2B34B9CEF8 /* InAppProductPurchaseRequest.swift in Sources */,
+				ECA56CF657C642C9667164F07A6B8CEF /* InAppProductQueryRequest.swift in Sources */,
+				401CC4828FF77B310FB714B2F208DB33 /* InAppReceipt.swift in Sources */,
+				F64C19DE67FB7213531BC1AB43ECF057 /* InAppReceiptRefreshRequest.swift in Sources */,
+				E1353450416562AD4F9602AF6C146D63 /* OS.swift in Sources */,
+				A88B3B4C732D526C77EAAF33525915E1 /* SwiftyStoreKit-dummy.m in Sources */,
+				04250EF47F3C7A82BD62FED9D1C081B4 /* SwiftyStoreKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88DC8CFFDC84C1A2CA6FDCBD32D5BB48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848A3C1D1BEF04281FF31DAB19235D9D /* UIColor.swift in Sources */,
+				7A16C358C60068E4EFF8D14DE7E694D0 /* UIImage.swift in Sources */,
+				EC8A3F97A4B2DCFB5DB11DE1ABE6FD8B /* ZAlertView-dummy.m in Sources */,
+				6F669D1DC4844F156ADFA568C4F4CAD0 /* ZAlertView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F57DE8B545C71E4C009BD510C37C122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABF593196ACD3FE96EC7072060FF010 /* SimpleAlert-dummy.m in Sources */,
+				CE12DEFBB8D02632E73D29BBBADBE175 /* SimpleAlert.swift in Sources */,
+				399A23BCFAF8FAB7DD53F969AB7AEAE5 /* SimpleAlert.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB05E083C23EAB6AE970AC59B95A443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2C437AC8B85AC648693C3AFCDA38BB /* Polyline-dummy.m in Sources */,
+				67AC3489311600D930CC2C92ECD47848 /* Polyline.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34F5C1EBC6BF05DD932C74861F0F7F11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Polyline;
+			target = 1C080055654F530AA845FF3429077B74 /* Polyline */;
+			targetProxy = E04CAFBAAFB719EDA6E553D733EED565 /* PBXContainerItemProxy */;
+		};
+		8DD5AE503DDD9DC104CC5C0BF98010B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleAlert;
+			target = BDF4505A4AAC3A4B359FCE5882F28CDA /* SimpleAlert */;
+			targetProxy = DDBD7F9E133FD04E754B1DBBF423A407 /* PBXContainerItemProxy */;
+		};
+		92CDF8E3E22A22FBA9D944120665EBB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = 9F766ADB76A46AB732825D44C4BAAABF /* DropDown */;
+			targetProxy = BA18A360E5168E24601622E3C4E39CFB /* PBXContainerItemProxy */;
+		};
+		D3315B970B46747740E6F4C0FA4DAF8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZAlertView;
+			target = 691A7364CE35DB8C3F23CAC3951EA87A /* ZAlertView */;
+			targetProxy = 9D5FE194A6A4EBCE724F49ADFE3454A1 /* PBXContainerItemProxy */;
+		};
+		E19AE8F6F73E1C30308FA5CF1386C6E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyStoreKit;
+			target = 7977CEEB16C76137045295666C3B0691 /* SwiftyStoreKit */;
+			targetProxy = 5BDB50CDCFFCBFFD30FB9050A4040EF7 /* PBXContainerItemProxy */;
+		};
+		EB38056B2AF27578396EE763649F9884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Polyline;
+			target = 1C080055654F530AA845FF3429077B74 /* Polyline */;
+			targetProxy = 38B025BE77789FE284DC511660D00FFA /* PBXContainerItemProxy */;
+		};
+		F771F00556634AD3D034972DBA1B1C57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapboxDirections.swift;
+			target = 7C93BB2C850F2E4BB09BF2BBE1A027FE /* MapboxDirections.swift */;
+			targetProxy = 798ED7AFB29DD3E9D085CA357E7804E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15A277D00DAA4303797B8E01CCD49721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C574F7EF2B387CCD5A5E369A1B3402E /* ZAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZAlertView/ZAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZAlertView/ZAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2524B500BF49EA48447E6BADA290D965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45953221A3613EAAFB4BE364FB70AB6B /* MapboxDirections.swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MapboxDirections.swift/MapboxDirections.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MapboxDirections.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MapboxDirections.swift/MapboxDirections.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MapboxDirections;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2581086612AD8D99AE93E8B7F2CABB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F44881B5794ACB5249B372EC2B0FCC14 /* Pods-Seeda.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Seeda/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Seeda/Pods-Seeda.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Seeda;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3980BF4B5F4639E7C28098055FC1D570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61FF4F090C07D54CD883FAEED925A082 /* Polyline.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Polyline/Polyline-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polyline/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Polyline/Polyline.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Polyline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		500BF03E69A01142E9869C43A5A81E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 342FB60E526926E492C90EADFA2B20B8 /* SimpleAlert.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleAlert/SimpleAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleAlert/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleAlert/SimpleAlert.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SimpleAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F804C03302A87B8FD504691E1D6E10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45953221A3613EAAFB4BE364FB70AB6B /* MapboxDirections.swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MapboxDirections.swift/MapboxDirections.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MapboxDirections.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MapboxDirections.swift/MapboxDirections.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MapboxDirections;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3629824A108DBC9438873CF55A630DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61FF4F090C07D54CD883FAEED925A082 /* Polyline.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Polyline/Polyline-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polyline/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Polyline/Polyline.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Polyline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAFB84F3557396942A0980A12A177C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A228BB92CBE930131513F9BE5CF0992F /* SwiftyStoreKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyStoreKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyStoreKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC2906D9A355584584EE09733B3B7567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 342FB60E526926E492C90EADFA2B20B8 /* SimpleAlert.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleAlert/SimpleAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleAlert/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleAlert/SimpleAlert.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SimpleAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4270085DACFD1E4242DABFFF87B2D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A228BB92CBE930131513F9BE5CF0992F /* SwiftyStoreKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyStoreKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyStoreKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5711154D4D2CFD32F1C712C9E661EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53CE3AD28BA86C0781D593FAA7163AA6 /* DropDown.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7DB46BBFB5AD10BAD66231E4BF76647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53CE3AD28BA86C0781D593FAA7163AA6 /* DropDown.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F086731975F267D74DA3F1734CEAE379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2BE82DD5A115471D5F6BA6F011FA645 /* Pods-Seeda.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Seeda/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Seeda/Pods-Seeda.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Seeda;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8FABC445FD4DF71366D1A2020C89D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C574F7EF2B387CCD5A5E369A1B3402E /* ZAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZAlertView/ZAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZAlertView/ZAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1675E524B5C4941862055A4EDC30F103 /* Build configuration list for PBXNativeTarget "MapboxDirections.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2524B500BF49EA48447E6BADA290D965 /* Debug */,
+				9F804C03302A87B8FD504691E1D6E10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F178792297CEA9FDA8D268A4846DF52 /* Build configuration list for PBXNativeTarget "Polyline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3629824A108DBC9438873CF55A630DB /* Debug */,
+				3980BF4B5F4639E7C28098055FC1D570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276B9EC8BC6AA9F67EA070C35EDFECA2 /* Build configuration list for PBXNativeTarget "Pods-Seeda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F086731975F267D74DA3F1734CEAE379 /* Debug */,
+				2581086612AD8D99AE93E8B7F2CABB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1B0BF92E156B0A73D3E6AAC19F6B51 /* Build configuration list for PBXNativeTarget "SwiftyStoreKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4270085DACFD1E4242DABFFF87B2D05 /* Debug */,
+				BAFB84F3557396942A0980A12A177C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEBA9E088F9F2D1C4E4D758CD3F35F4A /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5711154D4D2CFD32F1C712C9E661EF4 /* Debug */,
+				D7DB46BBFB5AD10BAD66231E4BF76647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E57CF4912C902E8370D62D888AA2653E /* Build configuration list for PBXNativeTarget "SimpleAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500BF03E69A01142E9869C43A5A81E88 /* Debug */,
+				CC2906D9A355584584EE09733B3B7567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D74E90502DEFAE71BDC46C4B62F80A /* Build configuration list for PBXNativeTarget "ZAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8FABC445FD4DF71366D1A2020C89D71 /* Debug */,
+				15A277D00DAA4303797B8E01CCD49721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

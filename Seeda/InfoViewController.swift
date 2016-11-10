@@ -10,26 +10,35 @@ import UIKit
 
 class InfoViewController: UIViewController {
 
+    @IBOutlet weak var contact_label: UILabel!
+    @IBOutlet weak var contactEmail_label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
+        
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(InfoViewController.contactPressed(_:)))
+        contactEmail_label.userInteractionEnabled = true
+        contactEmail_label.addGestureRecognizer(tapGesture)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func viewWillAppear(animated: Bool) {
+        let defaults = NSUserDefaults.standardUserDefaults()
+        let language = defaults.objectForKey("language") as! String
+        //process language settings
+        if (language == "english") {
+            contact_label.text = "For inquiry or suggestion please"
+        } else {
+            contact_label.text = "للاستفسار أو اقتراح من فضلك"
+        }
     }
-    */
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    func contactPressed(sender : UITapGestureRecognizer) {
+        UIApplication.sharedApplication().openURL(NSURL(string: "mailto:seeda2016@outlook.com")!)
+    }
 
 }

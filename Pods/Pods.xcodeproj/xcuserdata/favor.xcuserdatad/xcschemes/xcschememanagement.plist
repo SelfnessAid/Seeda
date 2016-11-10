@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MapboxDirections.swift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Pods-Seeda.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Polyline.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>SimpleAlert.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>SwiftyStoreKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1C080055654F530AA845FF3429077B74</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3BF408DE52E69C5CF7EC19D0EEBA9412</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3D00DC3FCD8844B0ACB461BFEF315F3F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7C93BB2C850F2E4BB09BF2BBE1A027FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ADA35B3577EEB42CDE4DA6ECC4664AB7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
